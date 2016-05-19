@@ -1,4 +1,4 @@
-package com.example.compoundbuttonview;
+﻿package com.example.compoundbuttonview;
 
 import com.example.compoundbuttonview.view.CheckSwitchButton;
 import com.example.compoundbuttonview.view.SlideSwitchView;
@@ -39,6 +39,7 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				if(isChecked){
 					//选中
+					//ABCDEFGAAAACCCKKK
 				}else{
 					//未选中
 				}
