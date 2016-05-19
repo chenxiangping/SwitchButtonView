@@ -20,6 +20,8 @@ public class MainActivity extends Activity {
 	private CheckSwitchButton mCheckSwithcButton;
 	private CheckSwitchButton mEnableCheckSwithcButton;
 	private SlideSwitchView mSlideSwitchView;
+	//è¿™ä¸ªæ˜¯æµ‹è¯•å†…å®¹
+	private CheckSwitchButton checkSwitchButton;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,7 +30,7 @@ public class MainActivity extends Activity {
 	}
 
 	private void initView() {
-		mTogBtn = (ToggleButton) findViewById(R.id.mTogBtn); // »ñÈ¡µ½¿Ø¼ş
+		mTogBtn = (ToggleButton) findViewById(R.id.mTogBtn); // è·å–åˆ°æ§ä»¶
 		mTogBtn.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 			@Override
@@ -36,12 +38,12 @@ public class MainActivity extends Activity {
 					boolean isChecked) {
 				// TODO Auto-generated method stub
 				if(isChecked){
-					//Ñ¡ÖĞ
+					//é€‰ä¸­
 				}else{
-					//Î´Ñ¡ÖĞ
+					//æœªé€‰ä¸­
 				}
 			}
-		});// Ìí¼Ó¼àÌıÊÂ¼ş
+		});// æ·»åŠ ç›‘å¬äº‹ä»¶
 		mCheckSwithcButton = (CheckSwitchButton)findViewById(R.id.mCheckSwithcButton);
 		mEnableCheckSwithcButton = (CheckSwitchButton)findViewById(R.id.mEnableCheckSwithcButton);
 		mCheckSwithcButton.setChecked(false);
