@@ -41,7 +41,8 @@ public class MainActivity extends Activity {
 					//选中
 					//ABCDEFGAAAACCCKKK
 				}else{
-					//未选中
+					//未选中这个是chenxiangping账号提交测试
+
 				}
 			}
 		});// 添加监听事件
